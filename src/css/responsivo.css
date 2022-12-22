@@ -1,0 +1,36 @@
+@media (max-width:700px){
+    .center-painel {
+       width: 300px;
+       height: 200px;
+    }
+
+    .center-painel .title h1{
+        font-size: 15px;
+    }
+
+    .center-painel .password input[type='text']{
+        padding: 8px;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+
+    .center-painel .btn button {
+        padding: 2px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .center-painel {
+        width: 150px;
+    }
+
+    .center-painel .title h1 {
+        font-size: 8px;
+    }
+
+    .center-painel .password input[type='text'] {
+        padding: 3px;
+        font: 8px;
+    }
+}
